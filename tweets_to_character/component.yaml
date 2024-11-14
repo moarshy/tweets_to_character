@@ -1,0 +1,15 @@
+name: tweets_to_character
+type: tweets_to_character
+author: naptha
+version: 0.1.0
+description: Multi-agent network for Keynesian Beauty Contest.
+license: MIT
+
+outputs:
+    filename: output.txt
+    save: false
+    location: node
+
+implementation:
+    package:
+        entrypoint: run.py
