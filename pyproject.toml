@@ -12,7 +12,7 @@ instructor = "^1.6.4"
 openai = "^1.54.4"
 pydantic = "^2.9.2"
 python-dotenv = "^1.0.1"
-
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
 
 [build-system]
 requires = ["poetry-core"]
