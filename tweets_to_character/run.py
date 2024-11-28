@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 async def run(agent_run: AgentRunInput, *args, **kwargs):
     logger.info(f"Running with inputs: {agent_run.inputs}")
 
-    folder_id = agent_run.inputs.input_dir
+    folder_id = Path(agent_run.inputs.input_dir)
 
     # get account data
     account_data = get_account_data(folder_id)
