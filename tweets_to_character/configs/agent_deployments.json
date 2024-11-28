@@ -1,0 +1,11 @@
+[
+    {
+        "name": "tweets_to_character",
+        "module": {"name": "tweets_to_character"},
+        "worker_node_url": "http://localhost:7001",
+        "agent_config": {
+            "config_name": "agent_config_1",
+            "llm_config": {"config_name": "model_1"}
+        }
+    }
+]
